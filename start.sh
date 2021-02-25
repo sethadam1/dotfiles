@@ -3,7 +3,7 @@ sh ~/.dotfiles/main/macos.sh
 
 # Homebrew!
 if [ ! -e /usr/local/bin/brew ]; then
-	info "== Installing Homebrew == \n\n"
+	echo "== Installing Homebrew == \n\n"
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 	printf "\n\n"
 fi
