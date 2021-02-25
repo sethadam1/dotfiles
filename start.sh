@@ -19,3 +19,4 @@ if [ ! -e /usr/local/bin/brew ]; then
 fi
 
 cp ~/.dotfiles/main/Brewfile.sh ~/Brewfile
+brew bundle
