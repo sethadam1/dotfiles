@@ -861,4 +861,4 @@ for app in "Activity Monitor" \
 	"iCal"; do
 	killall "${app}" &> /dev/null
 done
-info "Done. Note that some of these changes require a logout/restart to take effect."
+echo "== Please note: some of these changes require a restart to take effect."
